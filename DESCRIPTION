@@ -1,0 +1,17 @@
+Package: SC19080
+Type: Package
+Title: Provide two functions for the final homework of the 'Statistical Computing' course in 2019 fall
+Version: 1.0
+Date: 2020-01-02
+Author: Jianrui Zhang
+Maintainer: Jianrui Zhang <zjrustc@mail.ustc.edu.cn>
+Description: One function provides the L1 splitting function used in rpart. One calculates the max absolute value in a correlation matrix. The other estimates the distribution of maximum absolute sample correlation coefficient in high dimensions
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.3), kedd, boot, Ball, DAAG, bootstrap, energy, lattice, microbenchmark
+LinkingTo: Rcpp
+RoxygenNote: 7.0.2
+Suggests: knitr, rmarkdown, rpart, rpart.plot
+VignetteBuilder: knitr
+Encoding: UTF-8
+URL: http://github.com/SC19080/SC19080
+BugReports: http://github.com/SC19080/SC19080/issues
